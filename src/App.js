@@ -6,8 +6,18 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hello world</h1>
-        <Weather city="Tokyo" />
+        <Weather />
+        <footer>
+          This project was coded by Olha Bondarenko and is
+          <a
+            href="https://github.com/Olha1990/weather-react"
+            target="_blank"
+            rel="noreferrer"
+          >
+            {" "}
+            open-sourced on GitHub
+          </a>
+        </footer>
       </header>
     </div>
   );
