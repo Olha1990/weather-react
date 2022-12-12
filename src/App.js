@@ -11,6 +11,7 @@ export default function App() {
           <a
             href="https://www.linkedin.com/in/olha-bondarenko-393090242/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Olha Bondarenko
           </a>{" "}
