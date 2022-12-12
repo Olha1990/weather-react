@@ -7,7 +7,14 @@ export default function App() {
       <div className="container">
         <Weather defaultCity="Carlisle" />
         <footer>
-          This project was coded by Olha Bondarenko and is
+          This project was coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/olha-bondarenko-393090242/"
+            target="_blank"
+          >
+            Olha Bondarenko
+          </a>{" "}
+          and is{" "}
           <a
             href="https://github.com/Olha1990/weather-react"
             target="_blank"
